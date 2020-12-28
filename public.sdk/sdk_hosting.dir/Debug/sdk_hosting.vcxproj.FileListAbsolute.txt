@@ -1,0 +1,2 @@
+D:\VST\lib\Debug\sdk_hosting.pdb
+D:\VST\public.sdk\sdk_hosting.dir\Debug\sdk_hosting.pdb

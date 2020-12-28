@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt
+  CMake does not need to re-run because D:/VST/public.sdk/samples/vst-hosting/editorhost/CMakeFiles/generate.stamp is up-to-date.
+  plugprovider.cpp
+  editorhost.cpp
+  usediids.cpp
+  platform.cpp
+  window.cpp
+  module_win32.cpp
+  editorhost.vcxproj -> D:\VST\bin\Debug\editorhost.exe

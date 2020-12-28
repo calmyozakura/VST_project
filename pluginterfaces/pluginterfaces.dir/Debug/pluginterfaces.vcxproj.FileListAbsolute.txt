@@ -1,0 +1,2 @@
+D:\VST\lib\Debug\pluginterfaces.pdb
+D:\VST\pluginterfaces\pluginterfaces.dir\Debug\pluginterfaces.pdb

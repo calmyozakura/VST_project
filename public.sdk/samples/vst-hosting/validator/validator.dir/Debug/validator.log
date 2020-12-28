@@ -1,0 +1,43 @@
+﻿  Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/public.sdk/samples/vst-hosting/validator/CMakeLists.txt
+  CMake does not need to re-run because D:/VST/public.sdk/samples/vst-hosting/validator/CMakeFiles/generate.stamp is up-to-date.
+  plugprovider.cpp
+  memorystream.cpp
+  busactivation.cpp
+  busconsistency.cpp
+  businvalidindex.cpp
+  checkaudiobusarrangement.cpp
+  scanbusses.cpp
+  sidechainarrangement.cpp
+  editorclasses.cpp
+  midilearn.cpp
+  midimapping.cpp
+  scanparameters.cpp
+  suspendresume.cpp
+  terminit.cpp
+  keyswitch.cpp
+  noteexpression.cpp
+  automation.cpp
+  process.cpp
+  processcontextrequirements.cpp
+  processformat.cpp
+  processinputoverwriting.cpp
+  processtail.cpp
+  processthreaded.cpp
+  silenceflags.cpp
+  silenceprocessing.cpp
+  speakerarrangement.cpp
+  variableblocksize.cpp
+  bypasspersistence.cpp
+  invalidstatetransition.cpp
+  repeatidenticalstatetransition.cpp
+  validstatetransition.cpp
+  testbase.cpp
+  checkunitstructure.cpp
+  scanprograms.cpp
+  scanunits.cpp
+  vsttestsuite.cpp
+  main.cpp
+  usediids.cpp
+  validator.cpp
+  module_win32.cpp
+  validator.vcxproj -> D:\VST\bin\Debug\validator.exe

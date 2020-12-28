@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/base/CMakeLists.txt
+  CMake does not need to re-run because D:/VST/base/CMakeFiles/generate.stamp is up-to-date.
+  baseiids.cpp
+  fbuffer.cpp
+  fdebug.cpp
+  fdynlib.cpp
+  fobject.cpp
+  fstreamer.cpp
+  fstring.cpp
+  timer.cpp
+  updatehandler.cpp
+  fcondition.cpp
+  flock.cpp
+  base.vcxproj -> D:\VST\lib\Debug\base.lib

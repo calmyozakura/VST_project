@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/CMakeLists.txt
+  CMake does not need to re-run because D:/VST/CMakeFiles/generate.stamp is up-to-date.
+  vst3groupcontroller.cpp
+  vst3padcontroller.cpp
+  vst3editor.cpp
+  vstguieditor.cpp
+  vstgui_win32_bundle_support.cpp
+  vstgui_support.vcxproj -> D:\VST\lib\Debug\vstgui_support.lib

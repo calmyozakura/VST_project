@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B8EA67B-9E95-3855-B874-AA83E7B1E30C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vstgui_support</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VST\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vstgui_support.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vstgui_support</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VST\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vstgui_support.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vstgui_support</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\base\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;VSTGUI_LIVE_EDITING;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;VSTGUI_LIVE_EDITING;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\base\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\base\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\base\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\base\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\base\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK -BD:/VST --check-stamp-file D:/VST/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_Bundle.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_CodeSign.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_Global.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_VstGuiSupport.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakePrintHelpers.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\VST\CMakeFiles\3.14.5\CMakeCCompiler.cmake;D:\VST\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;D:\VST\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;D:\VST\CMakeFiles\3.14.5\CMakeSystem.cmake;D:\VST\CMakeFiles\feature_tests.c;D:\VST\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VST\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK -BD:/VST --check-stamp-file D:/VST/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_Bundle.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_CodeSign.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_Global.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\cmake\modules\SMTG_VstGuiSupport.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakePrintHelpers.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\VST\CMakeFiles\3.14.5\CMakeCCompiler.cmake;D:\VST\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;D:\VST\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;D:\VST\CMakeFiles\3.14.5\CMakeSystem.cmake;D:\VST\CMakeFiles\feature_tests.c;D:\VST\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VST\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.cpp" />
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.h" />
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\plugin-bindings\vst3padcontroller.cpp" />
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\plugin-bindings\vst3padcontroller.h" />
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\plugin-bindings\vst3editor.cpp" />
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\plugin-bindings\vst3editor.h" />
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\source\vst\vstguieditor.cpp" />
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\source\vst\vstgui_win32_bundle_support.cpp" />
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\source\vst\vstgui_win32_bundle_support.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\VST\ZERO_CHECK.vcxproj">
+      <Project>{7A542668-F21D-33C6-94FC-B83EB9BA3604}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VST\base\base.vcxproj">
+      <Project>{2920DB61-49AD-3A05-A2D4-481E6C120243}</Project>
+      <Name>base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VST\VSTGUI.build\lib\vstgui.vcxproj">
+      <Project>{12AACBAF-B1E8-3E89-84D2-D67340B7F47F}</Project>
+      <Name>vstgui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VST\VSTGUI.build\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{83DA4CF0-17E3-3B83-A2D7-C6D82B7F6F98}</Project>
+      <Name>vstgui_uidescription</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

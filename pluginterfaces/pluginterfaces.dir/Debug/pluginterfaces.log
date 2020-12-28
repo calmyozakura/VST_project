@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/pluginterfaces/CMakeLists.txt
+  CMake does not need to re-run because D:/VST/pluginterfaces/CMakeFiles/generate.stamp is up-to-date.
+  conststringtable.cpp
+  coreiids.cpp
+  funknown.cpp
+  ustring.cpp
+  pluginterfaces.vcxproj -> D:\VST\lib\Debug\pluginterfaces.lib

@@ -1,0 +1,2 @@
+D:\VST\lib\Debug\base.pdb
+D:\VST\base\base.dir\Debug\base.pdb

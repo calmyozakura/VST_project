@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt
+  CMake does not need to re-run because D:/VST/public.sdk/CMakeFiles/generate.stamp is up-to-date.
+  connectionproxy.cpp
+  eventlist.cpp
+  hostclasses.cpp
+  module.cpp
+  parameterchanges.cpp
+  pluginterfacesupport.cpp
+  processdata.cpp
+  stringconvert.cpp
+  vstinitiids.cpp
+  sdk_hosting.vcxproj -> D:\VST\lib\Debug\sdk_hosting.lib

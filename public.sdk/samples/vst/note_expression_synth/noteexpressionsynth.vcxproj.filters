@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_voice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_touch_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\contrib\keyboardview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\brownnoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_expression_synth_voice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\note_touch_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\vstgui4\vstgui\contrib\keyboardview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\resource\note_expression_synth.uidesc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\calmgaming\Downloads\vst-sdk_3.7.1_build-50_2020-11-17\VST_SDK\VST3_SDK\public.sdk\samples\vst\note_expression_synth\resource\note_expression_synth.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{72C549ED-9A51-342B-8B0E-B272CCCBFA92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0FD2E63-2EB7-37ED-AB93-231E9587F652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

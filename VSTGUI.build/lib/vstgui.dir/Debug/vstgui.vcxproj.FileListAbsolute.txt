@@ -1,0 +1,2 @@
+D:\VST\lib\Debug\vstgui.pdb
+D:\VST\VSTGUI.build\lib\vstgui.dir\Debug\vstgui.pdb

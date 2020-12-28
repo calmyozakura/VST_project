@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/calmgaming/Downloads/vst-sdk_3.7.1_build-50_2020-11-17/VST_SDK/VST3_SDK/vstgui4/vstgui/uidescription/CMakeLists.txt
+D:/Program Files/CMake/share/cmake-3.14/Modules/FindEXPAT.cmake
+D:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.14/Modules/FindPkgConfig.cmake
